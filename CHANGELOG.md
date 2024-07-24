@@ -1,3 +1,3 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+* Create `Seeder` and `ThemeData` properties to view color scheme.

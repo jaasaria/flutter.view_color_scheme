@@ -1,9 +1,8 @@
 <table>
    <tr>
-      <td> <img src="./assets/themedata.jpg"  alt="1" width = 300px height = 640px ></td>
-      <td> <img src="./assets/seeder_colors.jpg"  alt="1" width = 300px height = 640px ></td>
-      <td> <img src="./assets/seeder_light.jpg"  alt="1" width = 300px height = 640px ></td>
-  </td>
+      <td> <img src="./assets/themedata.jpg"  alt="1" width = 200px></td>
+      <td> <img src="./assets/seeder_light.jpg"  alt="1" width = 200px></td>
+      <td> <img src="./assets/seeder_colors.jpg"  alt="1" width = 200px></td>
   </tr>
 </table>
 
@@ -11,7 +10,7 @@
 
 ## Features
 
-The purpose of this package is to visually view color scheme by `Seeder` or by `ThemeData`.
+The purpose of this package is to visually display the color scheme using `Seeder` or `ThemeData`.
 
 ## Installation
 
@@ -43,7 +42,7 @@ After that import the package.
 
 ## Usage
 
-There are 2 type of implementation, the `Seeder` and `ThemeData`. Bellow a sample usage on how to use the class.
+There are two types of implementation: `Seeder` and `ThemeData`. Below is a sample of how to use the class.
 
 1. View the color scheme by `Seeder`
 
@@ -52,7 +51,7 @@ There are 2 type of implementation, the `Seeder` and `ThemeData`. Bellow a sampl
     VcsHelper.navigateToColorSchemeScreen(context);
 ```
 
-or force; use when doing debugging switching between states
+or force; use this when debugging and switching between states
 
 ```dart
     VcsOption.setThemeData(null);
