@@ -1,6 +1,11 @@
-<p align="center">
-  <img src="./assets/images/default_avatar.jpg" width="350" title="View Color Scheme">
-</p>
+<table>
+   <tr>
+      <td> <img src="./assets/themedata.jpg"  alt="1" width = 300px height = 640px ></td>
+      <td> <img src="./assets/seeder_colors.jpg"  alt="1" width = 300px height = 640px ></td>
+      <td> <img src="./assets/seeder_light.jpg"  alt="1" width = 300px height = 640px ></td>
+  </td>
+  </tr>
+</table>
 
 # View Color Scheme 👨‍🎨👨‍💻
 
@@ -8,31 +13,33 @@
 
 The purpose of this package is to visually view color scheme by `Seeder` or by `ThemeData`.
 
-
-
 ## Installation
 
 Add the package to `pubspec.yaml`
 
 ```
-    $ flutter pub add package_name
+    flutter pub add package_name
 ```
+
 or
+
 ```
     dependencies:
         view_color_scheme: ^0.0.1
 ```
+
 or
+
 ```
     view_color_scheme:
         path: ../../plugins/view_color_scheme
 ```
 
 After that import the package.
+
 ```
    import 'package:view_color_scheme/view_color_scheme.dart';
 ```
-
 
 ## Usage
 
@@ -59,8 +66,6 @@ or force; use when doing debugging switching between states
     VcsOption.setThemeData(Theme.of(context));
     VcsHelper.navigateToColorSchemeScreen(context);
 ```
-
-
 
 ## TODO
 
