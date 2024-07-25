@@ -17,12 +17,6 @@ The purpose of this package is to visually display the color scheme using `Seede
 Add the package to `pubspec.yaml`
 
 ```
-    flutter pub add package_name
-```
-
-or
-
-```
     dependencies:
         view_color_scheme: ^0.0.1
 ```
@@ -32,6 +26,15 @@ or
 ```
     view_color_scheme:
         path: ../../plugins/view_color_scheme
+```
+
+or
+
+```
+    view_color_scheme:
+        git:
+            url: https://github.com/jaasaria/flutter.view_color_scheme.git
+            ref: main
 ```
 
 After that import the package.

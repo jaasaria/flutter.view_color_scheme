@@ -1,5 +1,5 @@
 name: view_color_scheme
-description: "A new Flutter package project."
+description: "The purpose of this package is to visually display the color scheme using `Seeder` or `ThemeData`."
 version: 0.0.1
 homepage:
 
